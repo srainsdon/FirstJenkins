@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello World... Looks like you got it working.\n", process.env);
+  response.end("Hello World... Looks like you got it working.\n");
 });
 
 // listen on localhost:8000
